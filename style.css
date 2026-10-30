@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aec2bc;
+    font-family: "Times New Roman", serif;
+    color: #18324a;
+}
+
+.form-container {
+    width: 480px;
+    margin: 30px auto;
+    padding: 40px 24px 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 18px;
+    border-bottom: 1px solid #007bff;
+    color: #18324a;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border: 1px solid #cbd2dc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    background-color: white;
+    color: #222;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-top: 5px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-reset {
+    background-color: #dc3545;
+}
+
+.btn-submit {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: auto;
+        margin: 20px;
+        padding: 30px 20px;
+    }
+}
+
